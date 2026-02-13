@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: 123456789012.dkr.ecr.us-east-1.amazonaws.com/ihms-frontend
+  repository: 331760067638.dkr.ecr.ap-south-1.amazonaws.com/ihms-frontend
   tag: 23
 
 service:
