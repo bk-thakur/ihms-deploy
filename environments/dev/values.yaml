@@ -5,7 +5,7 @@ image:
   tag: 23
 
 service:
-  type: ClusterIP
+  type: NodePort
 
 ingress:
   enabled: true
