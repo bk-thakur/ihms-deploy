@@ -5,11 +5,11 @@ metadata:
   name: ihms-ingress
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/subnets: subnet-0b12b32d2d911d6e0,subnet-040abef9011368687  
+    alb.ingress.kubernetes.io/subnets: subnet-0b12b32d2d911d6e0,subnet-040abef9011368687
 spec:
   ingressClassName: alb
   rules:
-      http:
+    - http:
         paths:
           - path: /
             pathType: Prefix
