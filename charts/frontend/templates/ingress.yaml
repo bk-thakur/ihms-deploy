@@ -5,7 +5,7 @@ metadata:
   name: ihms-ingress
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/subnets: subnet-01a902b2cc23a1ec7,subnet-09b6b90ea4eeee7c1,subnet-0ab00717f674fe445,subnet-0b12b32d2d911d6e0,subnet-06c089b8aefd8c32f
+    alb.ingress.kubernetes.io/subnets: subnet-01a902b2cc23a1ec7,subnet-09b6b90ea4eeee7c1
 spec:
   ingressClassName: alb
   rules:
