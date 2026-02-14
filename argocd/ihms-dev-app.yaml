@@ -6,9 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/bk-thakur/ihms-deploy.git
+    repoURL: https://github.com/your-org/ihms-deploy.git
     targetRevision: main
-    path: environments/dev
+    path: charts/frontend
+    helm:
+      valueFiles:
+        - ../../environments/dev/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: ihms-dev
